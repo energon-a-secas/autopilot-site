@@ -43,7 +43,7 @@ Flow Planner is an internal visual schedule builder that lets you chain time blo
 - **Live shell command generation** — commands update instantly as blocks change
 - **AppleScript source viewer** — inspect the generated AppleScript behind each command
 
-## Getting Started
+## Getting started
 
 No install or build step required. Open the file directly in your browser:
 
@@ -61,7 +61,7 @@ python3 -m http.server
 
 Single `index.html` (~43 KB) with embedded CSS and JS. No dependencies, no build tools, no framework.
 
-## Tech Stack
+## Tech stack
 
 - Pure HTML + CSS + JavaScript
 - Single-file architecture
