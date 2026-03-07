@@ -1,6 +1,6 @@
 <div align="center">
 
-# Flow Planner
+# Autopilot
 
 Visual time-block schedule builder that generates shell commands. No more manual duration math.
 
@@ -30,7 +30,7 @@ Visual time-block schedule builder that generates shell commands. No more manual
 
 ## Overview
 
-Flow Planner is an internal visual schedule builder that lets you chain time blocks (active, idle, away) on a timeline and instantly generates the corresponding macOS shell commands. No server required — everything runs client-side in a single file.
+Autopilot is an internal visual schedule builder that lets you chain time blocks (active, idle, away) on a timeline and instantly generates the corresponding macOS shell commands. No server required — everything runs client-side in a single file.
 
 **Live:** [autopilot.neorgon.com](https://autopilot.neorgon.com/)
 
