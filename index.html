@@ -136,7 +136,7 @@
     .card-title {
       font-size: .75em; font-weight: 700;
       text-transform: uppercase; letter-spacing: .9px;
-      color: rgba(255,255,255,.35);
+      color: rgba(255,255,255,.55);
       margin-bottom: 20px;
       text-align: center;
     }
@@ -147,7 +147,7 @@
     .ctrl-label   {
       font-size: .72em; font-weight: 700;
       text-transform: uppercase; letter-spacing: .7px;
-      color: rgba(255,255,255,.38);
+      color: rgba(255,255,255,.55);
     }
     .ctrl-label-active { color: var(--accent); }
     .ctrl-label-away   { color: var(--away); }
@@ -242,7 +242,7 @@
     }
     .chain-row.empty { align-items: center; justify-content: center; flex-wrap: wrap; }
     .chain-empty-msg {
-      color: rgba(255,255,255,.22); font-size: .88em;
+      color: rgba(255,255,255,.55); font-size: .88em;
       text-align: center; padding: 20px;
     }
 
@@ -600,11 +600,11 @@
         <div class="ctrl-group">
           <div class="ctrl-label">Start time</div>
           <div class="time-group">
-            <input type="number" class="time-input" id="start-hour"   min="1" max="12" value="9">
-            <span class="time-colon">:</span>
-            <input type="number" class="time-input" id="start-minute" min="0" max="59" value="0">
-            <button class="ampm-toggle" id="start-ampm">AM</button>
-            <button class="now-btn" id="btn-now">Now</button>
+            <input type="number" class="time-input" id="start-hour"   min="1" max="12" value="9" aria-label="Start hour">
+            <span class="time-colon" aria-hidden="true">:</span>
+            <input type="number" class="time-input" id="start-minute" min="0" max="59" value="0" aria-label="Start minute">
+            <button class="ampm-toggle" id="start-ampm" aria-label="Toggle AM or PM">AM</button>
+            <button class="now-btn" id="btn-now" aria-label="Set start time to now">Now</button>
           </div>
         </div>
       </div>
@@ -673,10 +673,6 @@
     </div>
 
   </main><!-- /.container -->
-
-  <footer class="info-footer">
-    Autopilot &middot; Block Schedule Builder &middot; <a class="footer-link" href="https://neorgon.com/">neorgon.com</a>
-  </footer>
 
   <script>
     /* ========================================================================
@@ -802,7 +798,7 @@
     function renderChain() {
       if (blocks.length === 0) {
         chainRow.classList.add('empty');
-        chainRow.innerHTML = '<div class="chain-empty-msg">No blocks yet -- add an Active or Away block below.</div>';
+        chainRow.innerHTML = '<div class="chain-empty-msg">No blocks yet. Add an Active or Away block below.</div>';
         return;
       }
       chainRow.classList.remove('empty');
@@ -940,7 +936,7 @@
         const msg = hasBlocks
           ? 'Set command templates above to generate a command.'
           : 'Add blocks to generate a command.';
-        commandOutput.innerHTML = `<span style="color:rgba(255,255,255,.22);font-style:italic">${msg}</span>`;
+        commandOutput.innerHTML = `<span style="color:rgba(255,255,255,.55);font-style:italic">${msg}</span>`;
         return;
       }
 
