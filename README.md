@@ -32,7 +32,7 @@ Visual time-block schedule builder. Generate cross-platform shell commands, run 
 
 Autopilot is a visual schedule builder that lets you chain time blocks (active, away, rest) on a timeline and instantly generate the corresponding shell commands. It now supports macOS, Windows, and Linux templates, runs focus sessions directly in the browser, and can encode an entire schedule into a shareable URL.
 
-No server required — everything runs client-side in a single file.
+No server required: everything runs client-side in a single file.
 
 **Live:** [autopilot.neorgon.com](https://autopilot.neorgon.com/)
 
@@ -40,18 +40,18 @@ No server required — everything runs client-side in a single file.
 
 ## Features
 
-- **Visual block-chain editor** — set start time, duration, and state (active / away / rest) per block.
-- **Cross-platform command templates** — switch between macOS, Windows, and Linux defaults in one click.
-- **Real-time timeline preview** — see your schedule rendered as a visual timeline as you build it.
-- **Live shell command generation** — commands update instantly as blocks change.
-- **In-browser runner** — run the schedule locally with live countdowns and browser notifications.
-- **Shareable URLs** — the full schedule is encoded in the URL hash so you can send a config to someone else.
-- **Export to script** — download the generated command as `.sh`, `.ps1`, or `.bat`.
-- **Built-in presets** — Full day, Morning focus, Afternoon slot, Split session, Pomodoro, 52/17, and Meeting buffer.
-- **Drag-to-reorder blocks** — rearrange schedule blocks by dragging the handle.
-- **Custom presets** — save your own schedules and recall them later.
-- **Export .ics** — add the schedule to Google/Outlook Calendar.
-- **Session history** — track completed runs, total focus time, and day streak.
+- **Visual block-chain editor**: set start time, duration, and state (active / away / rest) per block.
+- **Cross-platform command templates**: switch between macOS, Windows, and Linux defaults in one click.
+- **Real-time timeline preview**: see your schedule rendered as a visual timeline as you build it.
+- **Live shell command generation**: commands update instantly as blocks change.
+- **In-browser runner**: run the schedule locally with live countdowns and browser notifications.
+- **Shareable URLs**: the full schedule is encoded in the URL hash so you can send a config to someone else.
+- **Export to script**: download the generated command as `.sh`, `.ps1`, or `.bat`.
+- **Built-in presets**: Full day, Morning focus, Afternoon slot, Split session, Pomodoro, 52/17, and Meeting buffer.
+- **Drag-to-reorder blocks**: rearrange schedule blocks by dragging the handle.
+- **Custom presets**: save your own schedules and recall them later.
+- **Export .ics**: add the schedule to Google/Outlook Calendar.
+- **Session history**: track completed runs, total focus time, and day streak.
 
 ## Use cases
 

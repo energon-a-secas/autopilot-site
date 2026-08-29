@@ -287,7 +287,7 @@
 
     /* Overlap blocks so puzzle tabs interlock with indents */
     .block-wrapper + .block-wrapper { margin-left: calc(-1 * var(--puzzle-depth)); }
-    /* Rest is a standalone cap — no overlap, small gap */
+    /* Rest is a standalone cap: no overlap, small gap */
     .block-wrapper.rest-type { margin-left: 8px; }
 
     .block-wrapper.dragging { opacity: .45; }
@@ -428,7 +428,7 @@
 
     .block-window { font-size: .72em; color: var(--text-muted); }
 
-    /* Delete button — positioned within body area, away from puzzle tab */
+    /* Delete button: positioned within body area, away from puzzle tab */
     .block-delete {
       position: absolute; top: 7px; right: 8px;
       background: none; border: none;
