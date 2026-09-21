@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 make serve          # http://localhost:8811
 make kill           # stop the server
-open index.html     # also works — no ES modules, no server required
+open index.html     # also works: no ES modules, no server required
 ```
 
 ## Architecture
